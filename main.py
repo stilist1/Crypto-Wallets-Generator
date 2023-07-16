@@ -18,7 +18,7 @@ for i in range(rangee):
     password_input = WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((By.XPATH, "//input[@type='password']"))
     )
-    password_input.send_keys("130106066vb")
+    password_input.send_keys("password")
 
     # Find the password confirmation field and enter the password
     confirm_password_input = WebDriverWait(driver, 20).until(
